@@ -32,7 +32,7 @@ MAINTAINER Gerald Venzl <gerald.venzl@oracle.com>
 ENV ORACLE_BASE=/opt/oracle \
     ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE \
     ORACLE_SID=XE \
-    INSTALL_FILE_1="oracle-database-xe-18c-1.0-1.x86_64.rpm" \
+    INSTALL_FILE_1="https://roox-share2.s3-eu-west-1.amazonaws.com/oracle-database-xe-18c-1.0-1.x86_64.rpm" \
     RUN_FILE="runOracle.sh" \
     PWD_FILE="setPassword.sh" \
     CONF_FILE="oracle-xe-18c.conf" \
